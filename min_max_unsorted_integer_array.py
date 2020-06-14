@@ -1,5 +1,11 @@
 # find the largest and smallest number in an unsorted integer array
 
+# the python way
+# a = [9, 3, 5, 8, 6, 9, 9, 4, 10, 11, 32, 22, 20]
+# a.sort(); print("min : %d - max : %d" % (a[0], a[-1]))
+
+# and manually
+
 # first find out if array[0] is greater than array[1]
 #   if it is then place array[1] in min and array[0] in max
 # loop comparing n to min and max
