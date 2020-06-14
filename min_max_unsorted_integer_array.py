@@ -29,3 +29,4 @@ for n in range(len(a)):
         n += 1
 
 print(f"min: {min} - max: {max}")
+# min: 3 - max: 32
