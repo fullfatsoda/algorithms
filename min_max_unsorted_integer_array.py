@@ -21,9 +21,9 @@ min, max = 0, 0
 a = [9, 3, 5, 8, 6, 9, 9, 4, 10, 11, 32, 22, 20]
 # start min max by comparing first two array items
 if a[0] > a[1]:
-    max, min = a[0], a[1]
+    min, max = a[1], a[0]
 else:
-    max, min = a[1], a[0]
+    min, max = a[0], a[1]
 
 for n in range(len(a)):
     if a[n] < min:
