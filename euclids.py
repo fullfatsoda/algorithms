@@ -1,8 +1,7 @@
 # Euclid's algorithm to compute the greatest common divisor (GCD) to two numbers
 # https://en.wikipedia.org/wiki/Euclidean_algorithm
-# run from command line with...
-    #... > python3 euclids.py a b
-# where a and b would be two integers e.g. 3050 5060
+# run from command line with "> python3 euclids.py a b"
+# e.g.    > python3 euclids.py 3050 5060
 import sys
 
 def get_gcd(a, b):
