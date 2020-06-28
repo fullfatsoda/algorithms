@@ -4,11 +4,12 @@
 # e.g.    > python3 euclids.py 3050 5060
 import sys
 
+
 def get_gcd(a, b):
 
     while True:
-        if b == 0: # check for 0
-            print(a) # return gcd
+        if b == 0:  # check for 0
+            print(a)  # return gcd
             return False
         elif a > b:
             a = (a - b)
@@ -21,5 +22,6 @@ def get_gcd(a, b):
             b = (b - a)
             print(f"{a} {b}")
             continue
+
 
 get_gcd(int(sys.argv[1]), int(sys.argv[2]))

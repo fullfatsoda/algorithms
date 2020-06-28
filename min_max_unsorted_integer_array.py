@@ -32,7 +32,7 @@ for n in range(len(a)):
     elif a[n] > max:
         max = a[n]
         n += 1
-    else: # n is the same or neither larger or smaller
+    else:  # n is the same or neither larger or smaller
         n += 1
 
 print(f"min: {min} - max: {max}")
