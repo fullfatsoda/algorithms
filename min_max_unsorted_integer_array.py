@@ -11,7 +11,8 @@
 #       n += 1
 
 min, max = 0, 0
-a = [9, 3, 5, 8, 6, 9, 9, 4, 10, 11, 32, 22, 20]
+a = [] # list to sort
+# a = [9, 0, 8, 1, 7, 3, 6, 4, 5]
 
 # start min max by comparing first two array items
 if a[0] > a[1]:
@@ -30,4 +31,4 @@ for n in range(len(a)):
         n += 1
 
 print(f"min: {min} - max: {max}")
-# min: 3 - max: 32
+# min: 0 - max: 9
