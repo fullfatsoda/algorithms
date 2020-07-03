@@ -1,7 +1,5 @@
 # Euclid's algorithm to compute the greatest common divisor (GCD) to two numbers
 # https://en.wikipedia.org/wiki/Euclidean_algorithm
-import sys
-
 
 def get_gcd(a, b):
     while True:
